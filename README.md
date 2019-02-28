@@ -2,7 +2,7 @@ Function to validate IMEI.
 
 ## Installation and Usage
 
-Install the function with `npm install isValidImei`
+Install the function with `npm install isvalidimei`
 
 #### No ES6
 
