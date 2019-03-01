@@ -1,6 +1,6 @@
 export default (imei) => {
-	const parity = length % 2;
 	const length = imei.length;
+	const parity = length % 2;
 	let sum = 0;
 	let position;
 	for (position = length - 1; position >= 0; position--) {
