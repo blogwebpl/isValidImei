@@ -6,8 +6,8 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _default = function _default(imei) {
-  var parity = length % 2;
   var length = imei.length;
+  var parity = length % 2;
   var sum = 0;
   var position;
 

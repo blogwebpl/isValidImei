@@ -3,7 +3,7 @@ import { expect } from 'chai';
 
 describe('isValidImei.js', () => {
 	it('should return true on valid imei', () => {
-		const validImei = '123456789012345';
+		const validImei = '123456789012347';
 		const result = isValidImei(validImei);
 		expect(result).to.equal(true);
 	});
