@@ -9,7 +9,8 @@ Install the function with `npm install isvalidimei`
 ```javascript
 var isValidImei = require('isValidImei');
 
-isValidImei('123456789012345'); // true
+isValidImei('123456789012347'); // true
+isValidImei('123456789012345'); // false
 ```
 
 #### ES6
@@ -17,5 +18,6 @@ isValidImei('123456789012345'); // true
 ```javascript
 import isValidImei from 'isValidImei';
 
-isValidImei('123456789012345'); // true
+isValidImei('123456789012347'); // true
+isValidImei('123456789012345'); // false
 ```
